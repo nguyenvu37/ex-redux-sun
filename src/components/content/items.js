@@ -57,7 +57,7 @@ function Items(props) {
       </section>
       <Card products={props.products} />
       <Pagination
-        pagination={props.pagination}
+        // pagination={props.pagination}
         totalRows={props.totalRows}
         onPageChange={props.onPageChange}
       />

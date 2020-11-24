@@ -8,6 +8,7 @@ import convertArrRate from "../../../../common/convertArrRate";
 
 function CategoriesRate(props) {
   const { filters, arrRating, fetchData, fetChTotalRows } = props;
+
   let itemRate = arrRating
     ? arrRating.map((rate) => convertArrRate(rate.key))
     : [];
